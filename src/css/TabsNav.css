@@ -1,0 +1,159 @@
+/* Tab Nav #1 */
+.tab-icon-device {
+  width: 9.6875rem;
+  height: 9.6875rem;
+  fill: var(--main-gray);
+}
+
+/* Media Tab Nav #1 */
+@media (max-width: 900px) {
+  .tab-icon-device {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+.tab2 {
+  padding-top: 0.75rem;
+  position: absolute;
+  margin-left: 5%;
+}
+
+.tab3 {
+  padding-top: 0.5rem;
+  position: absolute;
+  margin-left: 5%;
+}
+
+/* Tab Nav #2 */
+
+.tab-icon-door {
+  width: 3.8125rem;
+  height: 4rem;
+  fill: var(--main-gray);
+}
+
+/* Media Tab #2 */
+@media (max-width: 900px) {
+  .tab-icon-door {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+/* Tab Nav #3 */
+.tab-icon-price {
+  width: 4.275rem;
+  height: 4.275rem;
+  fill: var(--main-gray);
+}
+
+/* Media Tab #3 */
+@media (max-width: 900px) {
+  .tab-icon-price {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+/* Tabs */
+.tabs {
+  padding-top: 1rem;
+}
+
+.tab-nav-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  list-style: none;
+  color: var(--main-gray);
+  margin: 0 12%;
+}
+
+/* Tab Nav Hover Effect */
+ul li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+ul li:hover svg path {
+  fill: #000;
+}
+
+/* The Active Tab */
+.activeTab {
+  border-bottom: 4px solid var(--main-blue);
+}
+
+.tab-selected {
+  color: #000;
+}
+
+.tab-selected svg path {
+  fill: #000;
+}
+
+/* Media for Tabs Nav */
+@media (min-width: 900px) {
+  .mediumScreen {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .largeScreen {
+    display: none;
+    margin-left: 0;
+  }
+
+  .mediumScreen {
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .tab2 {
+    padding-top: 0.75rem;
+    position: absolute;
+    margin-left: 10%;
+  }
+
+  .tab3 {
+    padding-top: 0.5rem;
+    position: absolute;
+    margin-left: 10%;
+  }
+}
+
+/* Retina screens */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .tab2 {
+    padding-top: 0.75rem;
+    position: absolute;
+    margin-left: 8.5%;
+  }
+
+  .tab3 {
+    padding-top: 0.5rem;
+    position: absolute;
+    margin-left: 8.5%;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .tab2 {
+    padding-top: 0.75rem;
+    position: absolute;
+    margin-left: 8.5%;
+  }
+
+  .tab3 {
+    padding-top: 0.5rem;
+    position: absolute;
+    margin-left: 8.5%;
+  }
+}

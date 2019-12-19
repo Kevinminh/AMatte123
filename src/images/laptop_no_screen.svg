@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="654 -144 1920 1080" style="enable-background:new 654 -144 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F7F7F7;}
+	.st1{fill:#F5F5F5;}
+	.st2{clip-path:url(#SVGID_2_);}
+</style>
+<g id="Macbook_1_">
+	<g id="top_xA0_Image_2_" transform="matrix(1,0,0,1,246,3)">
+		
+			<image style="overflow:visible;enable-background:new    ;" width="1585" height="1079" id="_Image1" xlink:href="F5D0186A.png"  transform="matrix(0.9224 0 0 0.9227 888.0906 -128.906)">
+		</image>
+	</g>
+	<circle id="camera" class="st0" cx="1617.2" cy="-88.2" r="9.3"/>
+	<path id="perspective_bottom" class="st1" d="M2578.1,719.6H663.7c-0.3,0-0.5,0-0.5,0.1s0.1,0.2,0.4,0.3c0.5,0.3,1.6,0.7,3.1,1.2
+		c3,1.1,7.9,2.6,13.7,4.5c34.8,11.1,69.8,24.6,104.1,28.3c8.9,1,17.8,1.1,20,1.1h1632.7c2.2,0,11.1-0.1,20.1-1.1
+		c34.7-3.7,69.3-17.2,104-28.3c5.8-1.8,10.7-3.4,13.7-4.4c1.5-0.5,2.6-0.9,3.1-1.2c0.3-0.1,0.4-0.2,0.4-0.3
+		C2578.6,719.6,2578.4,719.6,2578.1,719.6L2578.1,719.6z"/>
+	<g>
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M2575.8,701.1H665.1c-2.6,0-4.6,2.1-4.6,4.6v9.3c0,2.6,2.1,4.6,4.6,4.6h1910.7c2.6,0,4.6-2.1,4.6-4.6
+					v-9.3C2580.5,703.2,2578.4,701.1,2575.8,701.1z"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st2">
+				<g>
+					
+						<image style="overflow:visible;enable-background:new    ;" width="2081" height="21" id="_Image3" xlink:href="F5D01865.png"  transform="matrix(0.9226 0 0 0.8812 660.4665 701.0892)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

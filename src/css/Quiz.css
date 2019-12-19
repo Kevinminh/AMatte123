@@ -1,0 +1,279 @@
+/*************************************************************************************
+                                | Quiz Page
+**************************************************************************************/
+
+.quizQuestion {
+  padding-bottom: 1.5%;
+}
+
+.disable {
+  background-color: #f8f9fa;
+  box-shadow: none;
+  opacity: 0.9;
+  pointer-events: none;
+  border-radius: 5px;
+  color: #a9a9a9;
+  font-size: 18px;
+  padding: 8px 0;
+  width: 6rem;
+  margin-top: 15px;
+  text-align: center;
+  outline: none;
+}
+
+.quizTitle {
+  padding-top: 5%;
+}
+
+.videoEmbed {
+  padding: 56.5% 0 0 0;
+  display: flex;
+}
+
+.videoEmbedWrapper {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin-top: -12%;
+}
+@media only screen and (min-width: 1824px) {
+  .videoEmbedWrapper {
+    margin-top: -8%;
+  }
+}
+
+.option {
+  font-size: 16px;
+}
+
+/* UTILITIES */
+
+.status {
+  color: green;
+}
+
+/* QuestionCount Component */
+.questionCount {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #eeeeee;
+}
+
+.result-link {
+  float: right;
+  /* background-color: green; */
+  color: #000000;
+}
+
+.selected-btn {
+  border-radius: 5px;
+  border: 0.1rem solid #56a5eb;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0;
+  width: 20rem;
+  text-align: center;
+  background: linear-gradient(-45deg, #54dc1c, #6dd5fa);
+  transition: 0.3s ease-in;
+}
+
+.list-grp {
+  text-align: left;
+  line-height: 1.5;
+  padding: 10px;
+  background: #ccc;
+}
+
+.quiz-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.quiz-container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.quizNext {
+  border-radius: 5px;
+  border: 0.1rem solid #283464;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 0;
+  width: 6rem;
+  margin-top: 15px;
+  text-align: center;
+  background: linear-gradient(-45deg, #283464, #283464);
+  transition: 0.3s ease-in;
+  outline: none;
+}
+
+.quizNext:hover {
+  background: linear-gradient(-95deg, #3c50a0, #3c50a0);
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.2);
+  transform: translateY(-0.1rem);
+}
+
+.quizPrev {
+  border-radius: 5px;
+  border: 0.1rem solid #283464;
+  color: #283464;
+  font-size: 18px;
+  padding: 8px 0;
+  margin-top: 15px;
+  width: 6rem;
+  text-align: center;
+  background: transparent;
+  transition: 0.3s ease-in;
+  text-decoration: none;
+}
+
+.quizPrev:hover {
+  text-decoration: none;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.2);
+  transform: translateY(-0.1rem);
+}
+
+/*************************************************************************************
+                                  | Game Page
+  **************************************************************************************/
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 50%;
+  padding: 10px 0;
+  margin: 15px 0;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgba(211, 211, 211, 1);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.choice-container-correct {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 50%;
+  padding: 10px 0;
+  margin: 15px 0;
+  font-size: 1.8rem;
+  border: 0.1rem solid rgb(82, 228, 106);
+  background-color: white;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.choice-container p {
+  margin-left: 15px;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 235, 228, 0.1);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #56a5eb;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+}
+
+/* HUD */
+#hud {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0 25px 0;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 650px;
+  height: 0.25rem;
+  border: 0.1rem solid #56a5eb;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull {
+  height: 3.4rem;
+  background-color: #56a5eb;
+  width: 0%;
+}
+
+.btn-sec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 550px;
+  justify-content: space-between;
+}
+
+/*************************************************************************************
+                                  | TOAST STYLING
+  **************************************************************************************/
+
+.toast-invalid {
+  background-color: #f44366 !important; /* Error text */
+  border-radius: 5px !important;
+  color: #fff !important;
+  padding: 25px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: auto;
+  margin-top: -15%;
+}
+
+.toast-valid {
+  background-color: #57b846 !important; /* Error text */
+  border-radius: 5px !important;
+  color: #fff !important;
+  padding: 25px 25px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: auto;
+  margin-top: -15%;
+}

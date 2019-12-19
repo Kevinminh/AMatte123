@@ -1,0 +1,136 @@
+/*************************************************************************************
+                                | For AVAILABLE COURSES
+**************************************************************************************/
+
+.availableCourses {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f8f9fa;
+  padding-bottom: 75px;
+}
+.AV-mainContainer {
+  padding: 65px 0;
+  margin: auto;
+  width: 90%;
+  color: var(--main-dark-blue);
+}
+
+.AV-course-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 55px;
+}
+
+.grid-column-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: auto;
+  grid-row-gap: 50px;
+  justify-items: center;
+}
+
+.AV-bottom {
+  padding: 1.25rem 0 0 0;
+  display: grid;
+  grid-template-columns: 180px 180px;
+  grid-column-gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.AV-start-button {
+  background: linear-gradient(-45deg, #d4fc79, #96e6a1);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.AV-start-button:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.AV-start-button-ungdom {
+  background: linear-gradient(-45deg, #fad0c4, #ff9a9e);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.AV-start-button-ungdom:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.AV-start-button-vgs {
+  background: linear-gradient(-45deg, #a18cd1, #fbc2eb);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.AV-start-button-vgs:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.AV-start-button-uni {
+  background: linear-gradient(-45deg, #667eea, #764ba2);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.AV-start-button-uni:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.AV-course-btn {
+  background: transparent;
+  border-radius: 0.25rem;
+  border: solid;
+  border-color: #595959;
+  border-width: 2px;
+  padding: 1.125rem 3rem;
+  color: #595959;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.AV-course-btn:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  .AV-mainContainer {
+    width: 65%;
+  }
+  .grid-column-3 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+  }
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Grunnleggende matematikk",
+    "time": "32min",
+    "quiz": "42 quizoppgaver",
+    "overview": "/kurs0/00",
+    "start": "/kurs0/lesson/00",
+    "code": "0",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 1.Klasse",
+    "time": "1t 19min",
+    "quiz": "64 quizoppgaver",
+    "overview": "/kurs1/01",
+    "start": "/kurs1/lesson/01",
+    "code": "01",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 2.Klasse",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs2/02",
+    "start": "/kurs2/lesson/02",
+    "code": "02",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 3.Klasse",
+    "time": "1t 32min",
+    "quiz": "73 quizoppgaver",
+    "overview": "/kurs3/03",
+    "start": "/kurs3/lesson/03",
+    "code": "03",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 4.Klasse",
+    "time": "1t 32min",
+    "quiz": "80 quizoppgaver",
+    "overview": "/kurs4/04",
+    "start": "/kurs4/lesson/04",
+    "code": "04",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 5.Klasse",
+    "time": "1t 32min",
+    "quiz": "64 quizoppgaver",
+    "overview": "/kurs5/05",
+    "start": "/kurs5/lesson/05",
+    "code": "05",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 6.Klasse",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs6/06",
+    "start": "/kurs6/lesson/06",
+    "code": "06",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 7.Klasse",
+    "time": "1t 32min",
+    "quiz": "92 quizoppgaver",
+    "overview": "/kurs7/07",
+    "start": "/kurs7/lesson/07",
+    "code": "07",
+    "top": "AC-top",
+    "button": "AV-start-button"
+  },
+  {
+    "name": "Matematikk 8.Klasse",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs8/08",
+    "start": "/kurs8/lesson/08",
+    "code": "08",
+    "top": "AC-top-ungdom",
+    "button": "AV-start-button-ungdom"
+  },
+  {
+    "name": "Matematikk 9.Klasse",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs9/09",
+    "start": "/kurs9/lesson/09",
+    "code": "09",
+    "top": "AC-top-ungdom",
+    "button": "AV-start-button-ungdom"
+  },
+  {
+    "name": "Matematikk 10.Klasse",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs10/10",
+    "start": "/kurs10/lesson/10",
+    "code": "10",
+    "top": "AC-top-ungdom",
+    "button": "AV-start-button-ungdom"
+  },
+  {
+    "name": "Matematikk VGS - 1P",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "11",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "Matematikk VGS - 2P",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "12",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "Matematikk VGS - 1T",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "13",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "Matematikk VGS - S1",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "14",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "Matematikk VGS - S2",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "15",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "Matematikk VGS - R1",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "16",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "Matematikk VGS - R2",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "17",
+    "top": "AC-top-vgs",
+    "button": "AV-start-button-vgs"
+  },
+  {
+    "name": "MEK1000",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "18",
+    "top": "AC-top-uni",
+    "button": "AV-start-button-uni"
+  },
+  {
+    "name": "MEK2000",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "19",
+    "top": "AC-top-uni",
+    "button": "AV-start-button-uni"
+  },
+  {
+    "name": "Matematikk for økonomer",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "20",
+    "top": "AC-top-uni",
+    "button": "AV-start-button-uni"
+  },
+  {
+    "name": "Statistikk",
+    "time": "1t 32min",
+    "quiz": "72 quizoppgaver",
+    "overview": "/kurs/10",
+    "start": "/kurs/lesson/10",
+    "code": "21",
+    "top": "AC-top-uni",
+    "button": "AV-start-button-uni"
+  }
+]
