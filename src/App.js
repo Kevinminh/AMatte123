@@ -149,7 +149,7 @@ function App(props) {
         <Route exact path="/brukervilkar" component={Terms} />
         <Route exact path="/personvern" component={Privacy} />
         <Route exact path="/cookies" component={Cookies} />
-        <Route exact path="/" component={Home} />
+        <Route exact path="" component={Home} />
         <Route exact path="/stripe" component={MyStoreCheckout} />
         <Route component={NotFound404} />
       </Switch>
