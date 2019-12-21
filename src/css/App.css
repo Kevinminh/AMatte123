@@ -553,6 +553,7 @@ h5 {
   background-image: url(../images/kulbackground5.svg);
   background-position: center;
   background-size: cover;
+  z-index: 0;
 }
 
 .hero-btn {
@@ -957,6 +958,7 @@ h5 {
 **************************************************************************************/
 .menu-body {
   padding-top: 7px;
+  z-index: 2;
   background: transparent;
 }
 
@@ -967,6 +969,7 @@ h5 {
   grid-template-rows: 10px auto 10px;
   grid-column-gap: 50px;
   grid-row-gap: 15px;
+  z-index: 2;
 }
 
 .menu-logo {
@@ -977,6 +980,7 @@ h5 {
   transform: translate(-50%, -50%);
   margin-left: 0;
   overflow: hidden;
+  z-index: 2;
 }
 
 @media screen and (max-width: 850px) {
@@ -1076,6 +1080,7 @@ h5 {
   translate: transform (-50%, -50%);
   cursor: pointer;
   transition: background 0.2 ease-in;
+  z-index: 2;
 }
 .basic-btn:hover {
   color: #4c68ff;
@@ -1094,6 +1099,7 @@ h5 {
   translate: transform (-50%, -50%);
   cursor: pointer;
   transition: background 0.2 ease-in;
+  z-index: 2;
 }
 
 .basic-btn1:hover {
@@ -1112,6 +1118,7 @@ h5 {
   position: absolute;
   translate: transform (-50%, -50%);
   cursor: pointer;
+  z-index: 2;
   transition: background 0.2 ease-in;
 }
 
@@ -1132,12 +1139,14 @@ h5 {
   translate: transform (-50%, -50%);
   cursor: pointer;
   transition: background 0.2 ease-in;
+  z-index: 2;
 }
 
 .basic-btn3:hover {
   color: #4c68ff;
   text-decoration: none;
 }
+
 /*************************************************************************************
                                 | FOOTER
 **************************************************************************************/
