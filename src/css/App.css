@@ -1084,6 +1084,7 @@ h5 {
   translate: transform (-50%, -50%);
   cursor: pointer;
   transition: background 0.2 ease-in;
+  font-family: "Roboto", sans-serif;
   z-index: 2;
 }
 .basic-btn:hover {
@@ -1103,6 +1104,7 @@ h5 {
   translate: transform (-50%, -50%);
   cursor: pointer;
   transition: background 0.2 ease-in;
+  font-family: "Roboto", sans-serif;
   z-index: 2;
 }
 
@@ -1116,6 +1118,7 @@ h5 {
   color: #273362;
   margin: 1.25rem 17.5% 0;
   padding: 0.4375rem 1rem;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   line-height: normal;
   font-size: 1rem;
@@ -1137,6 +1140,7 @@ h5 {
   margin: 1.25rem 9% 0;
   padding: 0.4375rem 1.0625rem;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
   line-height: normal;
   font-size: 1rem;
   position: absolute;
