@@ -66,6 +66,10 @@ h5 {
   font-weight: bold;
 }
 
+.white {
+  color: #fff;
+}
+
 /* specific heights */
 .details3 {
   transition: height 1s ease;

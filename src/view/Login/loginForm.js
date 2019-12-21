@@ -110,7 +110,7 @@ class LoginForm extends Component {
             <div className="overlay">
               <div className="overlay-panel overlay-left">
                 <h1>Velkommen tilbake!</h1>
-                <p>
+                <p className="white">
                   For å fortsette å forbedre mattekarakterene logg på med oss
                 </p>
                 <button
@@ -123,7 +123,7 @@ class LoginForm extends Component {
               </div>
               <div className="overlay-panel overlay-right">
                 <h1>Hallo, student!</h1>
-                <p>
+                <p className="white">
                   Bli med på et matte eventyr med oss og få bedre karakterer
                 </p>
                 <button
