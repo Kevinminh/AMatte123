@@ -34,8 +34,8 @@ class KurserTest extends Component {
   render() {
     return (
       <div className="padding-top">
-        <span className="alleKurser-mainTitle">Alle kurser</span>
         {/* End widget span */}
+        <span className="alleKurser-mainTitle">Alle kurser</span>
         <Body>
           <div className="AC-card-container">
             <div className="AC-top">

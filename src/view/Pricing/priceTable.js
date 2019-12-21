@@ -438,6 +438,6 @@ const Body = styled.div`
   }
 
   .question {
-    padding: 0 10%;
+    padding: 0 20%;
   }
 `;
