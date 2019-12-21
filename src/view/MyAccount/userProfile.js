@@ -29,7 +29,7 @@ class myProfile extends Component {
           <div className="container-profile">
             <h3>Min profil</h3>
             <div>
-              Denne kontoen tilhører:
+              <p>Denne kontoen tilhører:</p>
               <p style={{ fontWeight: "900" }}>{email}</p>
               <img className="avatar" src={photoUrl} alt="profile avatar" />
             </div>
