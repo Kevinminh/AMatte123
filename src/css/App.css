@@ -39,6 +39,7 @@ a {
 
 p {
   font-family: "Roboto", sans-serif;
+  color: var(--main-dark-blue);
 }
 
 h3 {
