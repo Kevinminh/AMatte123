@@ -975,7 +975,7 @@ h5 {
 .menu-logo {
   width: 12rem;
   position: absolute;
-  top: 5%;
+  top: 4%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-left: 0;
@@ -1172,6 +1172,17 @@ footer.footer-area {
 
 .para span {
   color: #595959;
+}
+.logo {
+  height: 125px;
+  width: 125px;
+  margin-top: -20px;
+}
+
+.footer-area {
+  padding: 5rem 0;
+  background-image: url(../images/footer-bg.svg);
+  background-size: cover;
 }
 
 /*************************************************************************************
@@ -1667,6 +1678,12 @@ footer.footer-area {
 
   .hero {
     height: 85vh;
+  }
+
+  /*-----------FOOTER------------*/
+  .footer-area {
+    padding: 5rem 0;
+    padding-top: 12.5rem;
   }
 }
 

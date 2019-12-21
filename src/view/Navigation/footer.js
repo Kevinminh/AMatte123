@@ -5,7 +5,6 @@ import { Icon } from "react-icons-kit";
 import { facebook } from "react-icons-kit/fa/facebook";
 import { instagram } from "react-icons-kit/fa/instagram";
 import { ic_chat_bubble_outline } from "react-icons-kit/md/ic_chat_bubble_outline";
-import footerBg from "../../images/footer-bg.svg";
 import { Link } from "react-router-dom";
 
 class Footer1 extends Component {
@@ -58,16 +57,6 @@ class Footer1 extends Component {
 export default Footer1;
 
 const Footer = styled.div`
-  padding: 5rem 0;
-  background-image: url(${footerBg});
-  background-size: cover;
-
-  .logo {
-    height: 125px;
-    width: 125px;
-    margin-top: -20px;
-  }
-
   h5 {
     font-weight: 500;
     font-size: 23px;
