@@ -50,10 +50,10 @@ class Navbar extends Component {
                 <NavLink to="/om-oss" className="basic-btn">
                   OM OSS
                 </NavLink>
-                <NavLink to="/min-side" className="basic-btn1">
+                <NavLink to="/min-side" className="basic-btn3">
                   ALLE KURSER
                 </NavLink>
-                <NavLink to="/priser" className="basic-btn3">
+                <NavLink to="/priser" className="basic-btn2">
                   PRISER
                 </NavLink>
               </Fragment>

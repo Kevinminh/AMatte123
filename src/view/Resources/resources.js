@@ -241,7 +241,7 @@ const Body = styled.div`
   }
 
   .card-container {
-    padding: 25px 0 150px 0;
+    padding: 25px 0 200px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 80px auto 80px;
