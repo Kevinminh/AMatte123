@@ -10,7 +10,7 @@ class FeaturesTab extends Component {
           <div className="card">
             <div>
               <h3>
-                Vieoforelesninger
+                Videoforelesninger
                 <p>
                   Her får du friheten du alltid har ønsket deg. Enkle og presise
                   videoer med fokus på pensum. Du kan når som helst gå inn på
