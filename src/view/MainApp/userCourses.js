@@ -17,7 +17,7 @@ class KursApp extends Component {
   render() {
     return (
       // FIRST SECTION //
-      <div className="availableCourses">
+      <div className="availableCourses full-width">
         <div className="AV-mainContainer">
           <div className="AV-pageTitleContainer">
             <h1>Kurs hos AMatte</h1>
@@ -127,7 +127,6 @@ class KursApp extends Component {
           </div>
         </div>
         {/* END FIRST SECTION // // SEARCH SECTION */}
-
         <div>
           <Course />
         </div>

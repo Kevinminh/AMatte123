@@ -66,8 +66,8 @@ class userCoursesComponent extends Component {
     });
 
     return (
-      <div>
-        <div className="AV-mainContainer">
+      <div className="">
+        <div className="AV-mainContainer ">
           <h3>Søk etter andre kurser:</h3>
           <div className="AV-search-container">
             <p>Søk etter kurs</p>
@@ -109,7 +109,7 @@ class userCoursesComponent extends Component {
           </div>
           <div className="divider-2"></div>
         </div>
-        <div key={899} className="grid-column-3">
+        <div key={899} className="grid-column-3" style={{ padding: "0 50%" }}>
           {filteredCourses.map(course => {
             return this.renderCourse(course);
           })}
