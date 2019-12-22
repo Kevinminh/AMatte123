@@ -33,7 +33,7 @@ class TabContentTwo extends Component {
             <br></br>
           </div>
         </MidSection>
-        <Body>
+        <Body className="freeCourseBody">
           <div className="card-container">
             <div className="top">
               <h3>Grunnleggende matematikk</h3>
@@ -101,14 +101,6 @@ export default TabContentTwo;
 
 // Main Tab Content Container
 const Body = styled.div`
-  display: flex;
-  flex-display: row;
-  padding: 45px 0px 35px;
-  justify-content: center;
-  width: 100%;
-  padding: 150px
-  background: #F8F9FA;
-
   //Card container
   .card-container {
     border-radius: 0.5rem;
@@ -136,8 +128,6 @@ const Body = styled.div`
     border-radius: 0.25rem 0.25rem 0 0;
     padding: 1.85rem;
   }
-
-
 
   .top h3 {
     color: #fff;
@@ -173,11 +163,6 @@ const Body = styled.div`
     font-weight: bold;
     text-transform: uppercase;
   }
-
-
-
-
-
 `;
 
 // Subtitle

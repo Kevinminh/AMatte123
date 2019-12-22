@@ -12,7 +12,7 @@ class Landingpage extends Component {
         <div className="hero">
           <div className="hero-container">
             <div className="hero-content">
-              <h1>Matte- smartere og raskere</h1>
+              <h1>Matte - smartere og raskere</h1>
               <p>
                 En felles plattform i matematikk tilgjengelig for alle trinn og
                 elever. Optimal videolæring, effektive quizoppgaver tilknyttet

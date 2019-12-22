@@ -607,6 +607,15 @@ li {
   margin: 0 0 1.875 0;
 }
 
+/********* ALL COURSES *********/
+.allCoursesBody {
+  display: flex;
+  flex-direction: row;
+  padding: 45px 0px 15px;
+  justify-content: center;
+  width: 100%;
+}
+
 /*************************************************************************************
                                 | Stripe checkout
 **************************************************************************************/
@@ -1202,6 +1211,16 @@ footer.footer-area {
                                 | freeCourses
 **************************************************************************************/
 
+.freeCourseBody {
+  display: flex;
+  flex-direction: row;
+  padding: 45px 0px 35px;
+  justify-content: center;
+  width: 100%;
+  padding: 150px;
+  background: #f8f9fa;
+}
+
 .freeCourses-subtitleOffer {
   font-weight: 700;
   font-size: 40px;
@@ -1702,6 +1721,7 @@ footer.footer-area {
 
 /*--------------------------Mobile phones-------------------*/
 @media only screen and (max-width: 768px) {
+  /***** LANDING PAGE **/
   .hero-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 45% 35px 150px 35px;
@@ -1724,5 +1744,51 @@ footer.footer-area {
   .hero {
     height: 72vh;
     margin-top: 0%;
+  }
+  .basic-btn {
+    margin: 1.25rem 25% 0;
+  }
+
+  .basic-btn1 {
+    margin: 1.25rem 30% 0;
+  }
+
+  .basic-btn2 {
+    margin: 1.25rem 40% 0;
+  }
+
+  .basic-btn3 {
+    margin: 1.25rem 52% 0;
+  }
+  .container-features {
+    width: 1250px;
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 25px;
+  }
+
+  .freeCourses-subtitleOffer {
+    margin-top: 15%;
+    font-size: 35px;
+    padding: 5px;
+    justify-content: center;
+  }
+
+  .freeCourses-subtitleOffer p {
+    margin: 0;
+  }
+
+  .freeCourseBody {
+    display: grid;
+    grid-row-gap: 25px;
+    padding: 75px;
+  }
+
+  .allCoursesBody {
+    display: grid;
+    grid-column-gap: 0px;
+  }
+  .AC-card-container {
+    margin: 0px 15px 25px 15px;
   }
 }

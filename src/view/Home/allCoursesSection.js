@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { Icon } from "react-icons-kit";
 import { desktop } from "react-icons-kit/fa/desktop";
@@ -36,7 +35,7 @@ class KurserTest extends Component {
       <div className="padding-top">
         {/* End widget span */}
         <span className="alleKurser-mainTitle">Alle kurser</span>
-        <Body>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top">
               <h3>{Kurs0.navn}</h3>
@@ -127,8 +126,8 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
-        <Body>
+        </div>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top">
               <h3>{Kurs3.navn}</h3>
@@ -219,8 +218,8 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
-        <Body>
+        </div>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top">
               <h3>{Kurs6.navn}</h3>
@@ -311,8 +310,8 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
-        <Body>
+        </div>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top-ungdom">
               <h3>{Kurs9.navn}</h3>
@@ -403,8 +402,8 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
-        <Body>
+        </div>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top-vgs">
               <h3>{p2.navn}</h3>
@@ -495,8 +494,8 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
-        <Body>
+        </div>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top-vgs">
               <h3>{s1.navn}</h3>
@@ -587,8 +586,8 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
-        <Body>
+        </div>
+        <div className="allCoursesBody">
           <div className="AC-card-container">
             <div className="AC-top-vgs">
               <h3>{r2.navn}</h3>
@@ -679,18 +678,10 @@ class KurserTest extends Component {
               </Link>
             </div>
           </div>
-        </Body>
+        </div>
       </div>
     );
   }
 }
 
 export default KurserTest;
-
-const Body = styled.div`
-  display: flex;
-  flex-display: row;
-  padding: 45px 0px 15px;
-  justify-content: center;
-  width: 100%;
-`;

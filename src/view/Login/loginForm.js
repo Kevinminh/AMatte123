@@ -68,14 +68,15 @@ class LoginForm extends Component {
               <span className="span-info">
                 Eller bruk fortsett med Facebook
               </span>
-              <button>Fortsett med Facebook</button>
+              <button>
+                <h2 className="loginBtn">Fortsett med Facebook</h2>
+              </button>
             </form>
           </div>
           <div className="form-container sign-in-container">
             <form noValidate onSubmit={this.handleFb}>
               <h1 style={{ color: "#283464" }}>Velkommen student! </h1>
               <div className="social-container">
-                {" "}
                 <Icon
                   className="fbIcon"
                   style={{ cursor: "pointer", padding: "0 25px 0 0" }}
@@ -102,7 +103,7 @@ class LoginForm extends Component {
                 Velg innloggings metode, eller fortsett med Facebook
               </a>
               <button type="button" onClick={this.handleFb}>
-                Fortsett med Facebook
+                <h2 className="loginBtn">Fortsett med Facebook</h2>
               </button>
             </form>
           </div>
@@ -118,7 +119,7 @@ class LoginForm extends Component {
                   className="ghost"
                   id="signIn"
                 >
-                  Logg på
+                  <h2 className="loginBtn">Logg på</h2>
                 </button>
               </div>
               <div className="overlay-panel overlay-right">
@@ -131,7 +132,7 @@ class LoginForm extends Component {
                   className="ghost"
                   id="signUp"
                 >
-                  Registrer deg
+                  <h2 className="loginBtn">Registrer deg</h2>
                 </button>
               </div>
             </div>
