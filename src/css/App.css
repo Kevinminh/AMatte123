@@ -163,6 +163,40 @@ li {
   border-radius: 10px;
 }
 
+/*------------------------VARIABLER--------------------*/
+.photoshop {
+  background: linear-gradient(-45deg, #191731, #20cff6);
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 1.85rem;
+}
+
+.photoshop h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.shopify {
+  background: linear-gradient(-45deg, #000000, #5f8d3e);
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 1.85rem;
+}
+
+.shopify h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.wordpress {
+  background: linear-gradient(-45deg, #fffffe, #21759b);
+  border-radius: 0.25rem 0.25rem 0 0;
+  padding: 1.85rem;
+}
+
+.wordpress h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
 /* Header Section */
 
 .header-container {

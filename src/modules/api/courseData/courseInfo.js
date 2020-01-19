@@ -120,7 +120,7 @@ export const Kurs0 = {
 };
 
 export const Kurs1 = {
-  navn: "Matematikk 1.Klasse",
+  navn: "Kurs i Shopify: Starte nettbutikk",
   tid: "1t 19min",
   oppgaver: "64 quizoppgaver",
   beskrivelse: " grunnleggende matematikk",
@@ -281,7 +281,7 @@ export const Kurs7 = {
   beskrivelse: "grunnleggende matematikk"
 };
 export const Kurs8 = {
-  navn: "Matematikk 8.Klasse",
+  navn: "Gratis kurs i Photoshop CC: Introduksjon",
   tid: "1t 32min",
   oppgaver: "64 quizoppgaver",
   beskrivelse: "grunnleggende matematikk",

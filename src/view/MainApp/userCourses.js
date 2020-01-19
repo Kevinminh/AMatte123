@@ -27,7 +27,7 @@ class KursApp extends Component {
         </div>
         <div className="AV-course-container">
           <div className="AC-card-container">
-            <div className="AC-top">
+            <div className="wordpress">
               <h3>{Kurs0.navn}</h3>
               <div className="AC-icon-container">
                 <span className="AC-icon">
@@ -54,13 +54,13 @@ class KursApp extends Component {
               <Link to="/kurs0/00" className="AV-course-btn">
                 Kursoversikt
               </Link>
-              <Link to="/kurs0/lesson/00" className="AV-start-button">
+              <Link to="/kurs0/lesson/00" className="wordpress-start-btn">
                 Kom i gang
               </Link>
             </div>
           </div>
           <div className="AC-card-container">
-            <div className="AC-top">
+            <div className="shopify">
               <h3>{Kurs1.navn}</h3>
               <div className="AC-icon-container">
                 <span className="AC-icon">
@@ -87,13 +87,13 @@ class KursApp extends Component {
               <Link to="/kurs1/01" className="AV-course-btn">
                 Kursoversikt
               </Link>
-              <Link to="/kurs1/lesson/01" className="AV-start-button">
+              <Link to="/kurs1/lesson/01" className="shopify-start-btn">
                 Kom i gang
               </Link>
             </div>
           </div>
           <div className="AC-card-container">
-            <div className="AC-top-ungdom">
+            <div className="photoshop">
               <h3>{Kurs8.navn}</h3>
               <div className="AC-icon-container">
                 <span className="AC-icon">
@@ -105,7 +105,7 @@ class KursApp extends Component {
                   />
                   {Kurs8.tid}
                 </span>
-                <span className="AV-icon">
+                <span className="AC-icon">
                   <Icon
                     icon={pencil}
                     size={15}
@@ -120,7 +120,7 @@ class KursApp extends Component {
               <Link to="/kurs8/08" className="AV-course-btn">
                 Kursoversikt
               </Link>
-              <Link to="/kurs8/lesson/08" className="AV-start-button-ungdom">
+              <Link to="/kurs8/lesson/08" className="photoshop-start-btn">
                 Kom i gang
               </Link>
             </div>

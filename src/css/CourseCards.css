@@ -1,3 +1,51 @@
+.photoshop-start-btn {
+  background: linear-gradient(-45deg, #191731, #20cff6);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.photoshop-start-btn:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.shopify-start-btn {
+  background: linear-gradient(-45deg, #000000, #5f8d3e);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.shopify-start-btn:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.wordpress-start-btn {
+  background: linear-gradient(-45deg, #fffffe, #21759b);
+  border-radius: 0.25rem;
+  padding: 1.25rem 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.wordpress-start-btn:hover {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
 /*************************************************************************************
                                 | For AVAILABLE COURSES
 **************************************************************************************/
