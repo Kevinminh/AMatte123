@@ -1,6 +1,6 @@
 export const Kurs0 = {
-  navn: "Grunnleggende Matematikk",
-  tid: "32min",
+  navn: "Introduksjon til Wordpress",
+  tid: "4t 32min",
   oppgaver: "42 quizoppgaver",
   beskrivelse: "grunnleggende matematikk",
   lesson: "/kurs0/00",
